@@ -1,7 +1,12 @@
 from flask import Flask, jsonify, render_template_string
 import os
 
-app = Flask(__name__)
+appT = Flask(__name__)
+
+## Materia: Automatizacion de Infraestructura II
+## Profesor
+## Alumno: Marvin Israel Jaramillo Garcia
+
 
 # --- Contenido del CSS integrado ---
 STYLES = """
@@ -106,9 +111,9 @@ HTML_TEMPLATE = f"""
         <main>
             <div class="card">
                 <h2>Datos del Curso</h2>
-                <p><span class="label">Materia:</span> {{ materia }}</p>
-                <p><span class="label">Profesor:</span> {{ profesor }}</p>
-                <p><span class="label">Alumno:</span> {{ alumno }}</p>
+                <p><span class="label">Materia:</span> {{ Automatización de Infraestructura II }}</p>
+                <p><span class="label">Profesor:</span> {{ Froylan Alonso Perez Alanis }}</p>
+                <p><span class="label">Alumno:</span> {{ Marvin Israel Jaramillo Garcia }}</p>
             </div>
             
             <div class="footer-links">
