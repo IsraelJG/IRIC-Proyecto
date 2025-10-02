@@ -1,5 +1,7 @@
 FROM python:3.11-slim
-
+## Materia: Automatizacion de Infraestructura II
+## Profesor
+## Alumno: Marvin Israel Jaramillo Garcia
 WORKDIR /app
 
 # dependencias del sistema para curl (healthcheck) y gcc si se necesita compilar
